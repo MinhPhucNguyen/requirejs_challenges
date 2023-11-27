@@ -21,4 +21,11 @@ var config = {
             deps: ['jquery']
         }
     },
+    config: {
+        mixins: {
+            'mage/accordion': {
+                'Tigren_JavascriptInitExample/js/accordion-mixin': true
+            }
+        }
+    }
 }
