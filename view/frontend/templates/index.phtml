@@ -1,15 +1,17 @@
-<div class="show-modal">Click here</div>
+<!--<button id="test_btn">TEST BTN</button>-->
+
+<button id="test_btn">TEST BTN</button>
+
+<div id="popup-modal">
+    This is Test JS
+</div>
 
 <script type="text/x-magento-init">
     {
-        "#some-element": {
-            "theme/script": {
-                "someKey": "value",
-                "message": "Ha Noi"
+        "#test_btn": {
+            "modal/test": {
+                "config": "value"
             }
-        },
-        "#show-modal": {
-            "modal/example": {}
         }
     }
 </script>

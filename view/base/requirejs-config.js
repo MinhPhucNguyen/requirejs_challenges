@@ -8,16 +8,16 @@
 var config = {
     'map': {
         '*': {
-            "theme/script": "Tigren_JavascriptInitExample/js/script",
+            "modal/test": "Tigren_JavascriptInitExample/js/script",
             "modal/example": "Tigren_JavascriptInitExample/js/modal-example",
             'mage/accordion': "Tigren_JavascriptInitExample/js/accordion-mixin"
         }
     },
     'deps': [
-        'modal/example'
+        'modal/test'
     ],
     'shim': {
-        'modal/example': {
+        'modal/test': {
             deps: ['jquery']
         }
     },
