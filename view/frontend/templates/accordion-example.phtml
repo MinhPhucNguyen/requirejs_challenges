@@ -1,0 +1,28 @@
+<?php
+/*
+ * @author    Tigren Solutions <info@tigren.com>
+ * @copyright Copyright (c) 2023 Tigren Solutions <https://www.tigren.com>. All rights reserved.
+ * @license   Open Software License ("OSL") v. 3.0
+ *
+ */
+?>
+
+
+<div id="accordion-example">
+    <div data-role="collapsible">
+        <div data-role="title">
+            <?= $block->escapeHtml('Accordion Title') ?>
+        </div>
+        <div data-role="content">
+            <p><?= $block->escapeHtml('Accordion content...') ?></p>
+        </div>
+    </div>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        "#accordion-example": {
+            "accordion": {}
+        }
+    }
+</script>
