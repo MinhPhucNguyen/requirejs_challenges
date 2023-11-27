@@ -8,6 +8,9 @@
 
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <!--    <head>-->
+    <!--        <link src="Tigren_JavascriptInitExample::js/script.js"/>-->
+    <!--    </head>-->
     <referenceContainer name="content">
         <block name="js.layout.example"
                template="Tigren_JavascriptInitExample::index.phtml"/>
