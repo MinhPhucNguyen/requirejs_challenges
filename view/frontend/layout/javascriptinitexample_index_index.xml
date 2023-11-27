@@ -13,6 +13,18 @@
     <!--    </head>-->
     <referenceContainer name="content">
         <block name="js.layout.example"
-               template="Tigren_JavascriptInitExample::index.phtml"/>
+               template="Tigren_JavascriptInitExample::index.phtml">
+            <arguments>
+                <argument name="jsLayout" xsi:type="array">
+                    <item name="some_string"
+                          translate="true"
+                          xsi:type="string">Some String
+                    </item>
+                    <item name="some_number"
+                          xsi:type="number">42
+                    </item>
+                </argument>
+            </arguments>
+        </block>
     </referenceContainer>
 </page>
